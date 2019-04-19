@@ -24,6 +24,19 @@ pip install python-dotenv
 1. make a file named .flaskenv in the top level directory.
 2. FLASK_APP = <app_name>
 
+to add all requirements pip freeze> requirement.txt
+
+run flask app in heroku
+pip install gunicorn
+pip freeze>requirement.txt
+
+
+
+
+
+
+
+
 (venv) $ flask run
  * Serving Flask app "microblog"
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
